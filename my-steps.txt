@@ -134,9 +134,57 @@ shicoreyadobine@sweet-baby-ray unit1-git-practice % rm -r drinks
 
 
 ### Step 4
+shicoreyadobine@sweet-baby-ray unit1-git-practice % git init
+Initialized empty Git repository in /Users/shicoreyadobine/Desktop/unit1-git-practice/.git/
+shicoreyadobine@sweet-baby-ray unit1-git-practice % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	my-steps.txt
+	plants/
+	proteins/
+	sweets/
+	veggies/
+
+nothing added to commit but untracked files present (use "git add" to track)
+shicoreyadobine@sweet-baby-ray unit1-git-practice % git add .
+shicoreyadobine@sweet-baby-ray unit1-git-practice % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   my-steps.txt
+	new file:   plants/carrot.txt
+	new file:   plants/pea.txt
+	new file:   proteins/meats/crab.txt
+	new file:   proteins/tofu.txt
+	new file:   sweets/donut.txt
+	new file:   veggies/carrot.txt
+	new file:   veggies/pea.txt
+
 
 
 ### Step 5
+shicoreyadobine@sweet-baby-ray unit1-git-practice % git remote add origin https://github.com/S-Dobine/deliverable1.git
+git branch -M main
+git push -u origin main
+error: remote origin already exists.
+Username for 'https://github.com': s-dobine
+Password for 'https://s-dobine@github.com': 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 1.15 KiB | 1.15 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/S-Dobine/deliverable1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
